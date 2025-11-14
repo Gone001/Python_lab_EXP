@@ -1,0 +1,11 @@
+text = input("Enter a string: ")
+
+print("Uppercase:", text.upper())
+print("Lowercase:", text.lower())
+print("Title Case:", text.title())
+print("Length:", len(text))
+print("Count of 'a':", text.count('a'))
+print("Replaced 'a' with 'x':", text.replace('a','x'))
+print("Stripped text:", text.strip())
+print("Starts with 'H'? ", text.startswith('H'))
+print("Ends with 'd'? ", text.endswith('d'))

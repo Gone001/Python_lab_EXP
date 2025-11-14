@@ -1,0 +1,8 @@
+num1=int(input("Enter the 1st no : "))
+num2=int(input("Enter the 2nd no : "))
+print("\n")
+print("The Sum  of %d and %d is: %d" % (num1, num2, num1 + num2))
+print("The Sub  of %d and %d is: %d" % (num1, num2, num1 - num2))
+print("The Product  of %d and %d is: %d" % (num1, num2, num1 * num2))
+print("The Division of %d and %d is: %d" % (num1, num2, num1 / num2))
+print("The Mod  of %d and %d is: %d" % (num1, num2, num1 % num2))
